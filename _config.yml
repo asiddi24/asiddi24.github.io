@@ -55,6 +55,7 @@ googlescholar_id: 5EmBbGgAAAAJ
 #commentbox_id: 5640936277147648-proj
 
 # Theme specifications
+remote_theme: jonathanlilly/ghostly
 theme: ghostly
 ghostly:
   date_format: "%B %-d, %Y" # Corresponds to e.g. January 1, 2020
