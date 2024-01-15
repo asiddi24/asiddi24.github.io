@@ -21,7 +21,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        gem install bundler 2.5.4
+        gem install bundler-2.5.4
         bundle install
 
     - name: Build Jekyll Site
