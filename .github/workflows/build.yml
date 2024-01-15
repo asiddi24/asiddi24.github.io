@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
-
+      
     - name: Set Up Ruby
       uses: actions/setup-ruby@v1
       with:
@@ -21,7 +21,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        gem install bundler
+        gem install bundler 2.5.4
         bundle install
 
     - name: Build Jekyll Site
