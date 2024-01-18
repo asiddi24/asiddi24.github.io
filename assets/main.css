@@ -313,7 +313,7 @@ body { background-color: #FCF9FF; letter-spacing: 0.06em; font-family: Georgia; 
 
 .small { font-size: small; }
 
-main, header, footer { width: 100%; clear: both; margin-left: auto; margin-right: auto; text-align: center; font-size: large; max-width: 60em; min-width: 60em; color: #FF9700; padding: 0; margin-bottom: 0; }
+main, header, footer { width: 100%; clear: both; margin-left: auto; margin-right: auto; text-align: center; font-size: large; max-width: 40em; min-width: 40em; color: #FF9700; padding: 0; margin-bottom: 0; }
 
 p, ol, ul, div { color: black; font-size: large; text-align: justify; text-indent: 0em; padding: 1ex 0 1.5ex 0; margin: 0; }
 
