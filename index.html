@@ -21,23 +21,52 @@
 {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Ali Siddiqui"},"description":"Ali Siddiqui Oceanographer","headline":"home","name":"Ali Siddiqui","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ali Siddiqui" /><!-- Included since I plan to use javascript for link modification -->    
-  <script src="/assets/jquery-3.4.1.min.js"> </script></head>
+  <script src="/assets/jquery-3.4.1.min.js"> </script><script src="/assets/lightbox.js"></script></head>
 <body><header class="site-header" role="banner">
     <h1> Ali Siddiqui </h1><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts --><a class="nav current" href="/index.html">home</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/research.html">research</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/publications.html">publications</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/teaching.html">teaching</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/writings.html">writings</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/vita.html">vita</a></header>
 <main>
         <div class="content fade-in">
-             <!--Currently I have no static content here, only blog content pulled from the layout home.html-->
+             <!-- Currently I have no static content here, only blog content pulled from the layout home.html -->
 
-<p><img src="./figures/profile_pic.jpg" style="width: 200px; float: left; margin-right: 20px;" /></p>
-<p>  Hi! I’m Ali Siddiqui. I’m a Postdoc in the <a href="https://deeps.brown.edu/">Department of Earth, Environmental and Planetary Sciences</a> at Brown University, working on Arctic sea ice and ocean interactions in Chris Horvat’s <a href="https://polar-oceans.com/">group</a>. I use a combination of coupled climate models, observations and simple conceptual models to understand the ocean’s role in the Earth’s climate. 
+<table style="border: none; width: 100%;">
+<tr>
 
-In January 2025, I earned my PhD on salinity variability in the subpolar north Atlantic at Johns Hopkins with <a href="https://sites.krieger.jhu.edu/haine/">Tom Haine</a>. </p>
+<td style="border: none; width: 220px; vertical-align: middle;">
+
+<a href="./figures/profile_pic.jpg" data-lightbox="home" data-title="Ali Siddiqui">
+    <img src="./figures/profile_pic.jpg" style="width: 200px;" />
+</a>
+
+</td>
+
+<td style="border: none; vertical-align: top;">
+
+<p>
+Hi! I'm Ali Siddiqui. I'm a Postdoc in the 
+<a href="https://deeps.brown.edu/">Department of Earth, Environmental and Planetary Sciences</a>
+at Brown University, working on Arctic sea ice and ocean interactions in Chris Horvat's 
+<a href="https://polar-oceans.com/">group</a>. I use a combination of coupled climate models, observations and simple conceptual models to understand the ocean's role in the Earth's climate.
+</p>
+
+<p>
+In January 2025, I earned my PhD on salinity variability in the subpolar North Atlantic at Johns Hopkins with 
+<a href="https://sites.krieger.jhu.edu/haine/">Tom Haine</a>.
+</p>
+
+</td>
+
+</tr>
+</table>
+
+<p>
+Feel free to send me an <a href="ali_siddiqui@brown.edu">email</a> if you would like to know more about my research, talk about anything related to climate science or collaborate!
+</p>
 
 <p><br clear="left" /></p>
 </div>
     </main><footer>
     <div><a class="media" href="mailto:ali_siddiqui@brown.edu">Email</a>|<a class="media" href="https://github.com/asiddi24">GitHub</a>|<a class="media" href="https://scholar.google.com/citations?user=5EmBbGgAAAAJ">Google Scholar</a>|<a class="media" href="https://www.researchgate.net/profile/Ali-Siddiqui-3">ResearchGate</a>
-            <br/><p>&copy; 2023&mdash;2024 Ali Siddiqui | Powered by <a href="https://jekyllrb.com/">Jekyll</a> using the <a href="https://github.com/jonathanlilly/ghostly">Ghostly</a> theme</p>
+            <br/><p>&copy; 2026 Ali Siddiqui | Powered by <a href="https://jekyllrb.com/">Jekyll</a> using the <a href="https://github.com/jonathanlilly/ghostly">Ghostly</a> theme</p>
     </div>
 </footer>
 <script>
@@ -49,5 +78,14 @@ In January 2025, I earned my PhD on salinity variability in the subpolar north A
     $('a[href^="/"]:not([href$="pdf"]):not([href$="zip"]):not(.nav),a[href^="http"]:not([href$="pdf"]):not([href$="zip"]),a[href^="https"]:not([href$="pdf"]):not([href$="zip"]),[href$="html"]:not(.nav),a[href^="mailto"],a[href^="javascript"]').prepend('{').append('}');
     // see https://www.quackit.com/css/selectors/ for an helpful instroduction to css selectors
 </script>
-<!--  Lightbox Javascript --><!-- Mailchimp Javascript --><!-- Commentbox Javascript --></body>
+<!--  Lightbox Javascript --><script>
+        lightbox.option({
+            'fitImagesInViewport': true,
+            'wrapAround': true,
+            'alwaysShowNavOnTouchDevices': true,
+            'FadeDuration': 2000,
+            'imageFadeDuration': 200,
+            'resizeDuration': 500
+        })
+    </script><!-- Mailchimp Javascript --><!-- Commentbox Javascript --></body>
 </html>
